@@ -10,3 +10,7 @@ declare module 'styled-components' {
         }
     }
 }
+
+export interface MobileMenuProps {
+    menuIsOpen: boolean
+}

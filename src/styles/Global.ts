@@ -15,4 +15,13 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1.5rem;
         font-family: 'Alata', sans-serif;
     }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: ${props => props.theme.colors.white};
+    }
 `
