@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ImageHero from '../../assets/desktop/image-hero.jpg'
 
 export const Section = styled.section`
-    width: 100vw;
+    min-width: 100%;
     height: 100vh;
 
     background-image: url(${ImageHero});
