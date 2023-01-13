@@ -46,6 +46,7 @@ export const Info = styled.div`
 
     h2 {
         font-size: 3rem;
+        font-weight: 500;
         
     }
     p {
