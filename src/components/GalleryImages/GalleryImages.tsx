@@ -50,8 +50,8 @@ export const GalleryImages = () => {
             {
                 images.map(image => {
                     return (
-                        <C.Image>
-                            <img src={image.url} alt={image.text} key={image.url}/>
+                        <C.Image key={image.url}>
+                            <img src={image.url} alt={image.text}/>
                             <C.overlay>
                                 <p>{image.text}</p>
                             </C.overlay>
