@@ -7,32 +7,33 @@ export const InteractiveSection = styled.section`
 `
 
 export const Container = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 80%;
     position: relative;
-    margin: 0 3.5rem;
+    padding: 3rem;
     
-    @media (max-width: 1000px) {
+    @media (max-width: 980px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 `
 
 export const ImgContainer = styled.div`
-    width: 70rem;
+    width: 60rem;
 
     img {
         width: 100%;
     }
 
-     @media (max-width: 1000px) {
+     @media (max-width: 980px) {
         width: 30rem;
      }
 `
 
 export const Info = styled.div`
     font-family: 'Josefin Sans', sans-serif;
-    width: 45rem;
+    width: 50rem;
     padding: 2rem;
     background-color: ${props => props.theme.colors.white};
 
@@ -41,7 +42,7 @@ export const Info = styled.div`
     gap: 1.5rem;
 
     position: absolute;
-    left: 35rem;
+    left: 45rem;
     bottom: 0;
 
     h2 {
@@ -55,7 +56,7 @@ export const Info = styled.div`
         font-weight: 600;
     }
 
-    @media (max-width: 1000px) {
+    @media (max-width: 980px) {
         position: static;
         text-align: center; 
         height: 20rem;

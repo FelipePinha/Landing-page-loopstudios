@@ -17,11 +17,12 @@ export const MsgContainer = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    padding: 3.2rem;
+    padding: 5.5rem;
 
     
     @media (max-width: 500px) {
         justify-content: center;
+        padding: 3.2rem;
     }
 `
 

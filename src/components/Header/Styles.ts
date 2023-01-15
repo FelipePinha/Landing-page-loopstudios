@@ -5,9 +5,9 @@ export const Header = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3.5rem;
+    padding: 6.5rem;
 
-    @media (max-width: 375px) {
+    @media (max-width: 500px) {
         padding: 1rem;
     }
 `
