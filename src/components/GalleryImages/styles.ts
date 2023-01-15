@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const imagesContainer = styled.div`
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 186px);
+    grid-template-columns: repeat(auto-fill, 12rem);
     align-content: center;
     gap: 7.5rem;
 `
